@@ -3653,6 +3653,12 @@ public:
 	GameObject_t1113636619 * ___PT11_14;
 	// UnityEngine.GameObject GameController1::PT12
 	GameObject_t1113636619 * ___PT12_15;
+	// UnityEngine.GameObject GameController1::H1
+	GameObject_t1113636619 * ___H1_16;
+	// UnityEngine.GameObject GameController1::H2
+	GameObject_t1113636619 * ___H2_17;
+	// UnityEngine.GameObject GameController1::H3
+	GameObject_t1113636619 * ___H3_18;
 
 public:
 	inline static int32_t get_offset_of_timeLeft_2() { return static_cast<int32_t>(offsetof(GameController1_t1792337041, ___timeLeft_2)); }
@@ -3779,6 +3785,33 @@ public:
 		___PT12_15 = value;
 		Il2CppCodeGenWriteBarrier((&___PT12_15), value);
 	}
+
+	inline static int32_t get_offset_of_H1_16() { return static_cast<int32_t>(offsetof(GameController1_t1792337041, ___H1_16)); }
+	inline GameObject_t1113636619 * get_H1_16() const { return ___H1_16; }
+	inline GameObject_t1113636619 ** get_address_of_H1_16() { return &___H1_16; }
+	inline void set_H1_16(GameObject_t1113636619 * value)
+	{
+		___H1_16 = value;
+		Il2CppCodeGenWriteBarrier((&___H1_16), value);
+	}
+
+	inline static int32_t get_offset_of_H2_17() { return static_cast<int32_t>(offsetof(GameController1_t1792337041, ___H2_17)); }
+	inline GameObject_t1113636619 * get_H2_17() const { return ___H2_17; }
+	inline GameObject_t1113636619 ** get_address_of_H2_17() { return &___H2_17; }
+	inline void set_H2_17(GameObject_t1113636619 * value)
+	{
+		___H2_17 = value;
+		Il2CppCodeGenWriteBarrier((&___H2_17), value);
+	}
+
+	inline static int32_t get_offset_of_H3_18() { return static_cast<int32_t>(offsetof(GameController1_t1792337041, ___H3_18)); }
+	inline GameObject_t1113636619 * get_H3_18() const { return ___H3_18; }
+	inline GameObject_t1113636619 ** get_address_of_H3_18() { return &___H3_18; }
+	inline void set_H3_18(GameObject_t1113636619 * value)
+	{
+		___H3_18 = value;
+		Il2CppCodeGenWriteBarrier((&___H3_18), value);
+	}
 };
 
 #ifdef __clang__
@@ -3900,6 +3933,12 @@ public:
 	GameObject_t1113636619 * ___PT8_11;
 	// UnityEngine.GameObject GameController::PT9
 	GameObject_t1113636619 * ___PT9_12;
+	// UnityEngine.GameObject GameController::H1
+	GameObject_t1113636619 * ___H1_13;
+	// UnityEngine.GameObject GameController::H2
+	GameObject_t1113636619 * ___H2_14;
+	// UnityEngine.GameObject GameController::H3
+	GameObject_t1113636619 * ___H3_15;
 
 public:
 	inline static int32_t get_offset_of_timeLeft_2() { return static_cast<int32_t>(offsetof(GameController_t2330501625, ___timeLeft_2)); }
@@ -3999,6 +4038,33 @@ public:
 		___PT9_12 = value;
 		Il2CppCodeGenWriteBarrier((&___PT9_12), value);
 	}
+
+	inline static int32_t get_offset_of_H1_13() { return static_cast<int32_t>(offsetof(GameController_t2330501625, ___H1_13)); }
+	inline GameObject_t1113636619 * get_H1_13() const { return ___H1_13; }
+	inline GameObject_t1113636619 ** get_address_of_H1_13() { return &___H1_13; }
+	inline void set_H1_13(GameObject_t1113636619 * value)
+	{
+		___H1_13 = value;
+		Il2CppCodeGenWriteBarrier((&___H1_13), value);
+	}
+
+	inline static int32_t get_offset_of_H2_14() { return static_cast<int32_t>(offsetof(GameController_t2330501625, ___H2_14)); }
+	inline GameObject_t1113636619 * get_H2_14() const { return ___H2_14; }
+	inline GameObject_t1113636619 ** get_address_of_H2_14() { return &___H2_14; }
+	inline void set_H2_14(GameObject_t1113636619 * value)
+	{
+		___H2_14 = value;
+		Il2CppCodeGenWriteBarrier((&___H2_14), value);
+	}
+
+	inline static int32_t get_offset_of_H3_15() { return static_cast<int32_t>(offsetof(GameController_t2330501625, ___H3_15)); }
+	inline GameObject_t1113636619 * get_H3_15() const { return ___H3_15; }
+	inline GameObject_t1113636619 ** get_address_of_H3_15() { return &___H3_15; }
+	inline void set_H3_15(GameObject_t1113636619 * value)
+	{
+		___H3_15 = value;
+		Il2CppCodeGenWriteBarrier((&___H3_15), value);
+	}
 };
 
 #ifdef __clang__
@@ -4026,6 +4092,8 @@ struct GVar_t585717320_StaticFields
 public:
 	// System.Boolean GVar::isWin
 	bool ___isWin_2;
+	// System.Int32 GVar::Lives
+	int32_t ___Lives_3;
 
 public:
 	inline static int32_t get_offset_of_isWin_2() { return static_cast<int32_t>(offsetof(GVar_t585717320_StaticFields, ___isWin_2)); }
@@ -4034,6 +4102,14 @@ public:
 	inline void set_isWin_2(bool value)
 	{
 		___isWin_2 = value;
+	}
+
+	inline static int32_t get_offset_of_Lives_3() { return static_cast<int32_t>(offsetof(GVar_t585717320_StaticFields, ___Lives_3)); }
+	inline int32_t get_Lives_3() const { return ___Lives_3; }
+	inline int32_t* get_address_of_Lives_3() { return &___Lives_3; }
+	inline void set_Lives_3(int32_t value)
+	{
+		___Lives_3 = value;
 	}
 };
 
@@ -6634,7 +6710,7 @@ extern const int32_t g_FieldOffsetTable1774[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1775 = { sizeof (U24ArrayTypeU3D12_t2488454196)+ sizeof (RuntimeObject), sizeof(U24ArrayTypeU3D12_t2488454196 ), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1776 = { sizeof (U3CModuleU3E_t692745543), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1777 = { sizeof (GameController_t2330501625), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1777[11] = 
+extern const int32_t g_FieldOffsetTable1777[14] = 
 {
 	GameController_t2330501625::get_offset_of_timeLeft_2(),
 	GameController_t2330501625::get_offset_of_CountD_3(),
@@ -6647,9 +6723,12 @@ extern const int32_t g_FieldOffsetTable1777[11] =
 	GameController_t2330501625::get_offset_of_PT7_10(),
 	GameController_t2330501625::get_offset_of_PT8_11(),
 	GameController_t2330501625::get_offset_of_PT9_12(),
+	GameController_t2330501625::get_offset_of_H1_13(),
+	GameController_t2330501625::get_offset_of_H2_14(),
+	GameController_t2330501625::get_offset_of_H3_15(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1778 = { sizeof (GameController1_t1792337041), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1778[14] = 
+extern const int32_t g_FieldOffsetTable1778[17] = 
 {
 	GameController1_t1792337041::get_offset_of_timeLeft_2(),
 	GameController1_t1792337041::get_offset_of_CountD_3(),
@@ -6665,11 +6744,15 @@ extern const int32_t g_FieldOffsetTable1778[14] =
 	GameController1_t1792337041::get_offset_of_PT10_13(),
 	GameController1_t1792337041::get_offset_of_PT11_14(),
 	GameController1_t1792337041::get_offset_of_PT12_15(),
+	GameController1_t1792337041::get_offset_of_H1_16(),
+	GameController1_t1792337041::get_offset_of_H2_17(),
+	GameController1_t1792337041::get_offset_of_H3_18(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1779 = { sizeof (GVar_t585717320), -1, sizeof(GVar_t585717320_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1779[1] = 
+extern const int32_t g_FieldOffsetTable1779[2] = 
 {
 	GVar_t585717320_StaticFields::get_offset_of_isWin_2(),
+	GVar_t585717320_StaticFields::get_offset_of_Lives_3(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1780 = { sizeof (LoadSceneWhenClick_t4237803189), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1781 = { sizeof (WinLostDisplay_t1726081124), -1, 0, 0 };

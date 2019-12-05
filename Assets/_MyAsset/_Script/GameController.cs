@@ -8,9 +8,19 @@ public class GameController : MonoBehaviour {
     float timeLeft = 6.0f;
     public Text CountD;
     public GameObject PT1, PT2, PT3, PT4, PT5, PT6, PT7, PT8, PT9;
-    
+
+    private GameObject H1, H2, H3;
+   
     // Use this for initialization
     void Start () {
+        H1 = GameObject.Find("1HeartEmpty/Heart");
+        H2 = GameObject.Find("2HeartEmpty/Heart");
+        H3 = GameObject.Find("3HeartEmpty/Heart");
+
+        H1.SetActive(true);
+        H2.SetActive(true);
+        H3.SetActive(true);
+
         GVar.isWin = false;
 
         PT1.SetActive(false);
@@ -72,6 +82,38 @@ public class GameController : MonoBehaviour {
         {
             GameOver();
         }
+        LiveCounter();
+
+
+    }
+
+    private void LiveCounter()
+    {
+        if (GVar.Lives == 3)
+        {
+            H1.SetActive(true);
+            H2.SetActive(true);
+            H3.SetActive(true);
+        }
+        else if (GVar.Lives == 2)
+        {
+            H1.SetActive(false);
+            H2.SetActive(true);
+            H3.SetActive(true);
+        }
+        else if (GVar.Lives == 1)
+        {
+            H1.SetActive(false);
+            H2.SetActive(false);
+            H3.SetActive(true);
+        }
+        else if (GVar.Lives == 0)
+        {
+            H1.SetActive(false);
+            H2.SetActive(false);
+            H3.SetActive(false);
+            GameOver();
+        }
     }
 
     void GameOver()
@@ -87,4 +129,10 @@ public class GameController : MonoBehaviour {
         GVar.isWin = true;
         SceneManager.LoadScene("Scene03_2");
     }
+
+    public void ClickLoseGame()
+    {
+        GVar.Lives--;
+    }
+
 }

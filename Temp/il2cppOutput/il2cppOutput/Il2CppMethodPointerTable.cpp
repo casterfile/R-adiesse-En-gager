@@ -7635,6 +7635,7 @@ extern "C" void GameObject_SendMessage_m3720186693 ();
 extern "C" void GameObject_Internal_AddComponentWithType_m3797731663 ();
 extern "C" void GameObject_AddComponent_m136524825 ();
 extern "C" void GameObject_Internal_CreateGameObject_m2533291801 ();
+extern "C" void GameObject_Find_m2032535176 ();
 extern "C" void Gradient__ctor_m173848750 ();
 extern "C" void Gradient_Init_m3104802093 ();
 extern "C" void Gradient_Cleanup_m3422458828 ();
@@ -10291,13 +10292,17 @@ extern "C" void VerticalLayoutGroup_SetLayoutVertical_m3487765782 ();
 extern "C" void GameController__ctor_m1587060996 ();
 extern "C" void GameController_Start_m1173294274 ();
 extern "C" void GameController_Update_m217025042 ();
+extern "C" void GameController_LiveCounter_m101766519 ();
 extern "C" void GameController_GameOver_m2428591378 ();
 extern "C" void GameController_ClickWinGame_m333585751 ();
+extern "C" void GameController_ClickLoseGame_m2674731732 ();
 extern "C" void GameController1__ctor_m2054007712 ();
 extern "C" void GameController1_Start_m2300575034 ();
 extern "C" void GameController1_Update_m507294026 ();
+extern "C" void GameController1_LiveCounter_m1884110303 ();
 extern "C" void GameController1_GameOver_m2845136095 ();
 extern "C" void GameController1_ClickWinGame_m3768730032 ();
+extern "C" void GameController1_ClickLoseGame_m448454289 ();
 extern "C" void GVar__ctor_m1418977348 ();
 extern "C" void GVar_Start_m3416504016 ();
 extern "C" void GVar__cctor_m337408679 ();
@@ -10306,7 +10311,7 @@ extern "C" void LoadSceneWhenClick_LoadA_m3890961375 ();
 extern "C" void LoadSceneWhenClick_LoadRan_m1733034858 ();
 extern "C" void WinLostDisplay__ctor_m3835696096 ();
 extern "C" void WinLostDisplay_Start_m2301199052 ();
-extern const Il2CppMethodPointer g_MethodPointers[10288] = 
+extern const Il2CppMethodPointer g_MethodPointers[10293] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -17925,6 +17930,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10288] =
 	GameObject_Internal_AddComponentWithType_m3797731663,
 	GameObject_AddComponent_m136524825,
 	GameObject_Internal_CreateGameObject_m2533291801,
+	GameObject_Find_m2032535176,
 	Gradient__ctor_m173848750,
 	Gradient_Init_m3104802093,
 	Gradient_Cleanup_m3422458828,
@@ -20581,13 +20587,17 @@ extern const Il2CppMethodPointer g_MethodPointers[10288] =
 	GameController__ctor_m1587060996,
 	GameController_Start_m1173294274,
 	GameController_Update_m217025042,
+	GameController_LiveCounter_m101766519,
 	GameController_GameOver_m2428591378,
 	GameController_ClickWinGame_m333585751,
+	GameController_ClickLoseGame_m2674731732,
 	GameController1__ctor_m2054007712,
 	GameController1_Start_m2300575034,
 	GameController1_Update_m507294026,
+	GameController1_LiveCounter_m1884110303,
 	GameController1_GameOver_m2845136095,
 	GameController1_ClickWinGame_m3768730032,
+	GameController1_ClickLoseGame_m448454289,
 	GVar__ctor_m1418977348,
 	GVar_Start_m3416504016,
 	GVar__cctor_m337408679,
