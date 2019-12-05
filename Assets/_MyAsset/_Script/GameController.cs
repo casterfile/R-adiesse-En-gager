@@ -85,6 +85,6 @@ public class GameController : MonoBehaviour {
     {
         print("Game Win");
         GVar.isWin = true;
-        SceneManager.LoadScene("Scene04");
+        SceneManager.LoadScene("Scene03_2");
     }
 }

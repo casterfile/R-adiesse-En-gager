@@ -92,6 +92,7 @@ extern String_t* _stringLiteral1350712178;
 extern String_t* _stringLiteral1330940299;
 extern const uint32_t GameController_GameOver_m2428591378_MetadataUsageId;
 extern String_t* _stringLiteral1316972899;
+extern String_t* _stringLiteral2045083621;
 extern const uint32_t GameController_ClickWinGame_m333585751_MetadataUsageId;
 extern const uint32_t GameController1_Start_m2300575034_MetadataUsageId;
 extern const uint32_t GameController1_Update_m507294026_MetadataUsageId;
@@ -102,7 +103,6 @@ extern RuntimeClass* Debug_t3317548046_il2cpp_TypeInfo_var;
 extern String_t* _stringLiteral2523166379;
 extern const uint32_t LoadSceneWhenClick_LoadA_m3890961375_MetadataUsageId;
 extern String_t* _stringLiteral2045083620;
-extern String_t* _stringLiteral2045083621;
 extern const uint32_t LoadSceneWhenClick_LoadRan_m1733034858_MetadataUsageId;
 extern const uint32_t WinLostDisplay_Start_m2301199052_MetadataUsageId;
 
@@ -1764,7 +1764,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameController_ClickWinGame_m333585751 (GameC
 		MonoBehaviour_print_m330341231(NULL /*static, unused*/, _stringLiteral1316972899, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GVar_t585717320_il2cpp_TypeInfo_var);
 		((GVar_t585717320_StaticFields*)il2cpp_codegen_static_fields_for(GVar_t585717320_il2cpp_TypeInfo_var))->set_isWin_2((bool)1);
-		SceneManager_LoadScene_m1758133949(NULL /*static, unused*/, _stringLiteral1330940299, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m1758133949(NULL /*static, unused*/, _stringLiteral2045083621, /*hidden argument*/NULL);
 		return;
 	}
 }
