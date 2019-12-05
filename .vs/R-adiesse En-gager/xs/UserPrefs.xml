@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{69B85973-A88C-2A6B-6C31-17C357227702}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_MyAsset/_Script/LoadSceneWhenClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_MyAsset/_Script/GVar.cs">
     <Files>
-      <File FileName="Assets/_MyAsset/_Script/LoadSceneWhenClick.cs" Line="14" Column="1" />
+      <File FileName="Assets/_MyAsset/_Script/LoadSceneWhenClick.cs" Line="23" Column="46" />
+      <File FileName="Assets/_MyAsset/_Script/GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets/_MyAsset/_Script/GameController1.cs" Line="14" Column="9" />
+      <File FileName="Assets/_MyAsset/_Script/WinLostDisplay.cs" Line="15" Column="1" />
+      <File FileName="Assets/_MyAsset/_Script/GVar.cs" Line="10" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +14,7 @@
             <Node name="Assets" expanded="True">
               <Node name="_MyAsset" expanded="True">
                 <Node name="_Script" expanded="True">
-                  <Node name="LoadSceneWhenClick.cs" selected="True" />
+                  <Node name="GVar.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
